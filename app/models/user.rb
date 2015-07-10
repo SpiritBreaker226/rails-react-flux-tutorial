@@ -5,8 +5,11 @@ class User < ActiveRecord::Base
   
   has_many :stories
 
-  validates :username, presence: true
+  validates :username, presence: true 
   validates :email, presence: true
+  validates :password, confirmation: true
+  validates :email, uniqueness: true
+  validates :username, uniqueness: true
 
   private
 
