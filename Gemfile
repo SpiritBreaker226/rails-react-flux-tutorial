@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.1'
 gem 'rails-api', '~> 0.4.0'
 gem 'active_model_serializers', '~> 0.8.3' # NOTE: not the 0.9
-gem 'devise', '~> 3.4.1'
+gem 'devise', '~> 4.7.1'
 gem 'sqlite3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'thin'
