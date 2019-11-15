@@ -7,7 +7,7 @@ gem 'devise', '~> 3.4.1'
 gem 'sqlite3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'thin'
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack-cors', '>= 1.0.5'
 
 group :development, :test do
   gem 'faker'
